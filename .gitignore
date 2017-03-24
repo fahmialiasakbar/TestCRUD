@@ -243,3 +243,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Pelajaran/pbo/minimarket/nbproject/private/
+/Pelajaran/pbo/TestCRUD/nbproject/private/
+/Visionet/Film/nbproject/private/
+/Visionet/Toko Buku/nbproject/private/
