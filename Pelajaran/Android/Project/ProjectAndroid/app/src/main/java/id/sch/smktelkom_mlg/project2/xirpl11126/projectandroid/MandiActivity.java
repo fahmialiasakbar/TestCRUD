@@ -133,9 +133,12 @@ public class MandiActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            if (position == 0) {
+                return new Mandi1Fragment();
+            } else if (position == 1) {
+                return new Mandi2Fragment();
+            }
+            return MandiActivity.PlaceholderFragment.newInstance(position + 1);
         }
 
         @Override
@@ -148,11 +151,9 @@ public class MandiActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "Dalil";
                 case 1:
-                    return "SECTION 2";
-                case 2:
-                    return "SECTION 3";
+                    return "Tata Cara";
             }
             return null;
         }

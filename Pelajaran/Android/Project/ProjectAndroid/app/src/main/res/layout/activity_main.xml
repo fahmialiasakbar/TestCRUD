@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl11126.projectandroid.MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="56dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,41 +22,41 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/Thoharoh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thoharoh" />
+        <Button
+            android:id="@+id/Thoharoh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoharoh" />
 
-    <Button
-        android:id="@+id/Najis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Najis" />
+        <Button
+            android:id="@+id/Najis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Najis" />
 
-    <Button
-        android:id="@+id/Wudhu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wudhu" />
+        <Button
+            android:id="@+id/Wudhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wudhu" />
 
-    <Button
-        android:id="@+id/Tayamum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tayamum" />
+        <Button
+            android:id="@+id/Tayamum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tayamum" />
 
-    <Button
-        android:id="@+id/Siwak"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Siwak" />
+        <Button
+            android:id="@+id/Siwak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siwak" />
 
-    <Button
-        android:id="@+id/Mandi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mandi" />
+        <Button
+            android:id="@+id/Mandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mandi" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
