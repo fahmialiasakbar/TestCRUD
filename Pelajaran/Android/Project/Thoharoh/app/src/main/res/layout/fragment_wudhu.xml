@@ -6,9 +6,56 @@
 
     <!-- TODO: Update blank fragment layout -->
     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Siwak"
+        android:text="Go to Siwak"/>
+
+    <TextView
         android:id="@+id/sunnah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sunnah" />
+        android:text="أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ
+اَللَّهُمَّ اجْعَلْنِيْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِيْ مِنَ الْمُتَطَهِّرِيْنَ
+سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوْبُ إِلَيْكَ
+
+" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="لاَ وُضُوءَ لِمَنْ لَمْ يَذْكُرِ اسْمَ اللَّهِ عَلَيْهِ" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tidak ada wudhu bagi yang tidak menyebut nama Allahِ" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mencuci kedua tangan sebanyak tiga kali sebelum memulai wudhu." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berkumur-kumur lalu mengeluarkannya dan dilanjutkan dengan memasukkan (menghirup air dalam hidung (istinsyaq). Lalu mengeluarkan air dari hidung (istintsar). Hendaklah sungguh-sungguh menghirup air ke dalam hidung kecuali jika dalam keadaan berpuasa.Berkumur-kumur dan memasukkan air dalam hidung dilakukan melalui satu cidukan, tidak mengambil air untuk mulut sendiri dan hidung sendiri. Demikianlah praktek Rasulullah"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mencuci wajah. Batasan wajah adalah tempat tumbuhnya rambut kepala hingga dau dan dari telinga hingga telinga. Begitu pula rambut yang ada pada wajah, tetap dicuci meskipun tidak lebat, termasuk pula menyela-nyela jenggot."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mencuci kedua tangan hingga siku"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mencuci kedua tangan hingga siku"/>
+
+
 
 </FrameLayout>
