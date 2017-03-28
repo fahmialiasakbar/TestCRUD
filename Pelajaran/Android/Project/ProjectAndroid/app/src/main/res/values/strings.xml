@@ -3,4 +3,9 @@
     <string name="title_activity_thoharoh">Thoharoh</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_najis">Najis</string>
+    <string name="title_activity_wudhu">Wudhu</string>
+    <string name="title_activity_tayamum">Tayamum</string>
+    <string name="title_activity_siwak">Siwak</string>
+    <string name="title_activity_mandi">Mandi</string>
 </resources>
