@@ -10,12 +10,42 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.Thoharoh).setOnClickListener(new View.OnClickListener());
-        findViewById(R.id.Najis).setOnClickListener(new View.OnClickListener());
-        findViewById(R.id.Wudhu).setOnClickListener(new View.OnClickListener());
-        findViewById(R.id.Tayamum).setOnClickListener(new View.OnClickListener());
-        findViewById(R.id.Siwak).setOnClickListener(new View.OnClickListener());
-        findViewById(R.id.Mandi).setOnClickListener(new View.OnClickListener());
+        findViewById(R.id.Thoharoh).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        findViewById(R.id.Najis).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        findViewById(R.id.Wudhu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
+        findViewById(R.id.Tayamum).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        findViewById(R.id.Siwak).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        findViewById(R.id.Mandi).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
     }
 }
