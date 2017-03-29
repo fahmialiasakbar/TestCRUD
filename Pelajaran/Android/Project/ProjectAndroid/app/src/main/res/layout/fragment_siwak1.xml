@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl11126.projectandroid.Siwak1Fragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,12 +13,36 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:padding="5dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Waktu sunnah bersiwak" />
+                android:layout_marginBottom="10dp"
+                android:text="Pengertian Siwak"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Siwak adalah nama untuk sebuah kayu yang digunakan untuk menggosok gigi, bersiwak adalah menggosok gigi dengan kayu atau sejenisnya untuk menghilangkan kuning dan kotoran gigi, dan juga untuk membersihkan mulut. Hukum bersiwak adalah sunnah, dan sunnah ini sering ditinggalkan oleh umat islam. Khasiatnya antara lain  :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Menguatkan gusi\n- Menghindari sakit gigi\n- Memudahkan pencernaan\n- Melancarkan buang air kecil" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Waktu yang disunnahkan untuk bersiwak :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Ketika berwudhu\n- Sebelum shalat\n- Ketika hendak membaca al-Qur'an\n- Ketika memasuki rumah\n- Ketika bangun untuk shalat malam" />
 
         </LinearLayout>
 

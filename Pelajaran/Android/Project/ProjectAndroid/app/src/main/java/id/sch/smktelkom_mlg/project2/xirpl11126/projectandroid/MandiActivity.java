@@ -134,7 +134,7 @@ public class MandiActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             if (position == 0) {
-                return new Mandi1Fragment();
+                return new Mandi3Fragment();
             } else if (position == 1) {
                 return new Mandi2Fragment();
             }

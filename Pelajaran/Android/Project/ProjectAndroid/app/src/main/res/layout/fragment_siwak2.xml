@@ -12,13 +12,47 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dalil sunnahnya siwak" />
+                android:text="Dalil sunnahnya siwak"
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nDari Abu Huroiroh diriwayatkan oleh Al-Bukhari" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="لَوْلَا أَنْ أَشُقَّ عَلَى أُمَّتِي لَأَمَرْتُهُمْ بِالسِّوَاكِ عِنْدَ كُلِّ وُضُوءٍ" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  “Seandainya tidak memberatkan umatku, sungguh aku akan memerintahkan mereka bersiwak setiap kali berwudhu.”\n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nDari Abu Huroiroh diriwayatkan oleh Al-Bukhari" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="لَوْلَا أَنْ أَشُقَّ عَلَى أُمَّتِي أَوْ عَلَى النَّاسِ لَأَمَرْتُهُمْ بِالسِّوَاكِ مَعَ كُلِّ صَلَاةٍ" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  “Seandainya tidak memberatkan umatku, sungguh aku akan memerintahkan mereka bersiwak setiap hendak menunaikan shalat.”" />
         </LinearLayout>
 
     </ScrollView>
