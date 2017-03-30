@@ -7,7 +7,7 @@
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dari ‘Aisyah, isteri Nabi shallallahu ‘alaihi wa sallam, bahwa jika Nabi shallallahu ‘alaihi wa sallam mandi junub, beliau memulainya dengan mencuci kedua telapak tangannya. Kemudian beliau berwudhu sebagaimana wudhu untuk shalat. Lalu beliau memasukkan jari-jarinya ke dalam air, lalu menggosokkannya ke kulit kepalanya, kemudian menyiramkan air ke atas kepalanya dengan cidukan kedua telapak tangannya sebanyak tiga kali, kemudian beliau mengalirkan air ke seluruh kulitnya.”\n\n" />
+                android:text="  Dari ‘Aisyah, isteri Nabi shallallahu ‘alaihi wa sallam, bahwa jika Nabi shallallahu ‘alaihi wa sallam mandi junub, beliau memulainya dengan mencuci kedua telapak tangannya. Kemudian beliau berwudhu sebagaimana wudhu untuk shalat. Lalu beliau memasukkan jari-jarinya ke dalam air, lalu menggosokkannya ke kulit kepalanya, kemudian menyiramkan air ke atas kepalanya dengan cidukan kedua telapak tangannya sebanyak tiga kali, kemudian beliau mengalirkan air ke seluruh kulitnya.”\n\n" />
 
 
             <TextView
@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dari Ibnu ‘Abbas berkata bahwa Maimunah mengatakan, “Aku pernah menyediakan air mandi untuk Rasulullah shallallahu ‘alaihi wa sallam. Lalu beliau menuangkan air pada kedua tangannya dan mencuci keduanya dua kali-dua kali atau tiga kali. Lalu dengan tangan kanannya beliau menuangkan air pada telapak tangan kirinya, kemudian beliau mencuci kemaluannya. Setelah itu beliau menggosokkan tangannya ke tanah. Kemudian beliau berkumur-kumur dan memasukkan air ke dalam hidung. Lalu beliau membasuh muka dan kedua tangannya. Kemudian beliau membasuh kepalanya tiga kali dan mengguyur seluruh badannya. Setelah itu beliau bergeser dari posisi semula lalu mencuci kedua telapak kakinya (di tempat yang berbeda).”" />
+                android:text="  Dari Ibnu ‘Abbas berkata bahwa Maimunah mengatakan, “Aku pernah menyediakan air mandi untuk Rasulullah shallallahu ‘alaihi wa sallam. Lalu beliau menuangkan air pada kedua tangannya dan mencuci keduanya dua kali-dua kali atau tiga kali. Lalu dengan tangan kanannya beliau menuangkan air pada telapak tangan kirinya, kemudian beliau mencuci kemaluannya. Setelah itu beliau menggosokkan tangannya ke tanah. Kemudian beliau berkumur-kumur dan memasukkan air ke dalam hidung. Lalu beliau membasuh muka dan kedua tangannya. Kemudian beliau membasuh kepalanya tiga kali dan mengguyur seluruh badannya. Setelah itu beliau bergeser dari posisi semula lalu mencuci kedua telapak kakinya (di tempat yang berbeda).”" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -66,7 +66,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="“Jika Rasulullah shallallahu ‘alaihi wasallam mandi junub, beliau mencuci tangannya dan berwudhu sebagaimana wudhu untuk shalat. Kemudian beliau mandi dengan menggosok-gosokkan tangannya ke rambut kepalanya hingga bila telah yakin merata mengenai dasar kulit kepalanya, beliau mengguyurkan air ke atasnya tiga kali. Lalu beliau membasuh badan lainnya.”" />
+                android:text="  “Jika Rasulullah shallallahu ‘alaihi wasallam mandi junub, beliau mencuci tangannya dan berwudhu sebagaimana wudhu untuk shalat. Kemudian beliau mandi dengan menggosok-gosokkan tangannya ke rambut kepalanya hingga bila telah yakin merata mengenai dasar kulit kepalanya, beliau mengguyurkan air ke atasnya tiga kali. Lalu beliau membasuh badan lainnya.”" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rasulullah shallallahu ‘alaihi wa sallam senantiasa apabila hendak shalat malam (tahajjud), beliau membersihkan mulutnya dengan siwak." />
+                android:text="  Rasulullah shallallahu ‘alaihi wa sallam senantiasa apabila hendak shalat malam (tahajjud), beliau membersihkan mulutnya dengan siwak." />
 
         </LinearLayout>
     </ScrollView>

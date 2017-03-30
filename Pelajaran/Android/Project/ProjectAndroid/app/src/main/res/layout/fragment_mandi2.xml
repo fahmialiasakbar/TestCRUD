@@ -7,26 +7,45 @@
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tata cara" />
+                android:text="Hal yang menyebabkan Mandi"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Niat di dalam hati untuk mandi" />
+                android:text="- Jima yaitu bertemunya 2 kemaluan\n- Inzal yaitu keluar mani\n- Berhentinya darah haid atau darah nifas\n- Masuk Islam\n- Kematian" />
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tata cara" />
+                android:text="Tata cara"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nNiat di dalam hati untuk mandi\nMembaca Bismillah\nMembasuh 2 telapak tangan\nMenghilangkan kotoran\nBerwudhu tanpa membasuh kaki\nMengambil air untuk membasuh rambut serta menguraikannya\nMengguyur badan bagian kanan, kemudian bagian kiri, lalu seluruh tubuh seraya meggosok gosoknya\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Disunnahkan menghemat air, karena nabi mandi dengan 1 sha' atau 2,75 liter." />
 
         </LinearLayout>
 

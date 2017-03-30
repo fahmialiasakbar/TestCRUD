@@ -12,114 +12,73 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Inilah Wudhu yang dicontohkan Nabi" />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Niat di dalam hatinya." />
+                android:layout_margin="3dp"
+                android:text="Inilah Wudhu yang dicontohkan Nabi"
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mengucapkan bismillah." />
+                android:layout_margin="3dp"
+                android:text="  Niat di dalam hatinya, disertai mengucapkan bismillah, lalu mencuci kedua tangan sebanyak tiga kali sebelum memulai wudhu.\n" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mencuci kedua tangan sebanyak tiga kali sebelum memulai wudhu." />
+                android:layout_margin="3dp"
+                android:text="  Berkumur-kumur lalu mengeluarkannya dan dilanjutkan dengan memasukkan (menghirup air dalam hidung (istinsyaq). Lalu mengeluarkan air dari hidung (istintsar). Hendaklah sungguh-sungguh menghirup air ke dalam hidung kecuali jika dalam keadaan berpuasa.Berkumur-kumur dan memasukkan air dalam hidung dilakukan melalui satu cidukan, tidak mengambil air untuk mulut sendiri dan hidung sendiri. Demikianlah praktek Rasulullah" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Berkumur-kumur lalu mengeluarkannya dan dilanjutkan dengan memasukkan (menghirup air dalam hidung (istinsyaq). Lalu mengeluarkan air dari hidung (istintsar). Hendaklah sungguh-sungguh menghirup air ke dalam hidung kecuali jika dalam keadaan berpuasa.Berkumur-kumur dan memasukkan air dalam hidung dilakukan melalui satu cidukan, tidak mengambil air untuk mulut sendiri dan hidung sendiri. Demikianlah praktek Rasulullah" />
+                android:layout_margin="3dp"
+                android:text="  Mencuci wajah. Batasan wajah adalah tempat tumbuhnya rambut kepala hingga dau dan dari telinga hingga telinga. Begitu pula rambut yang ada pada wajah, tetap dicuci meskipun tidak lebat, termasuk pula menyela-nyela jenggot." />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mencuci wajah. Batasan wajah adalah tempat tumbuhnya rambut kepala hingga dau dan dari telinga hingga telinga. Begitu pula rambut yang ada pada wajah, tetap dicuci meskipun tidak lebat, termasuk pula menyela-nyela jenggot." />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mencuci kedua tangan hingga siku" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mencuci kedua tangan hingga siku" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mengusap kepala disertai telinga sekali. Mengusap kepala dimulai dari depan, kemudian diusap ke belakang sampai ke tengkuk, lalu dibalikkan ke depan. Kemudian dilanjutkan dengan mengusap kedua telinga dengan air yang tersisa dari mengusap kepala." />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Mencuci kedua kaki disertai mata kaki." />
+                android:layout_margin="3dp"
+                android:text="  Mencuci kedua tangan hingga siku, serta menggosok-gosoknya, disunnahkan melebihkan area wudhu." />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Berdoa." />
-
+                android:layout_margin="3dp"
+                android:text="  Mengusap kepala disertai telinga sekali. Mengusap kepala dimulai dari depan, kemudian diusap ke belakang sampai ke tengkuk, lalu dibalikkan ke depan. Kemudian dilanjutkan dengan mengusap kedua telinga dengan air yang tersisa dari mengusap kepala." />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Berdoa
-
-        أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ
-        اَللَّهُمَّ اجْعَلْنِيْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِيْ مِنَ الْمُتَطَهِّرِيْنَ
-        سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوْبُ إِلَيْكَ
-
-" />
+                android:layout_margin="3dp"
+                android:text="  Mencuci kedua kaki disertai mata kaki, serta menyela nyela ruas kaki dengan jari kelingking." />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Aku bersaksi, bahwa tiada sesembahan yang berhak disembah selain Allah, Yang Maha Esa dan tiada sekutu bagiNya. Aku bersaksi, bahwa Muhammad adalah hamba dan utusanNya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang (yang senang) bersuci. Maha Suci Engkau, ya Allah, aku memuji kepadaMu. Aku bersaksi, bahwa tiada sesembahan yang berhak disembah selain Engkau, aku minta ampun dan bertaubat kepadaMu" />
+                android:layout_margin="3dp"
+                android:text="  Berdoa\n
+        أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ. اَللَّهُمَّ اجْعَلْنِيْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِيْ مِنَ الْمُتَطَهِّرِيْنَ" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:padding="@dimen/cardview_default_elevation"
-                android:text="Sholat sunnah 2 rakaat." />
+                android:layout_margin="3dp"
+                android:text="  Aku bersaksi, bahwa tiada sesembahan yang berhak disembah selain Allah, Yang Maha Esa dan tiada sekutu bagiNya. Aku bersaksi, bahwa Muhammad adalah hamba dan utusanNya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang (yang senang) bersuci." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="\n  Sholat sunnah 2 rakaat. \nWudhu disunnahkan mengehemat ari karena nabi wudhu dengan 1 mud atau 0,7 liter (sepenuh 2 telapak tangan)" />
 
         </LinearLayout>
 

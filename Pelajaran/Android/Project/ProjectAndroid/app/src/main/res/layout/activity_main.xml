@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,24 +24,13 @@
             android:layout_margin="@dimen/appbar_padding_top"
             android:background="@color/colorPrimary"
             android:backgroundTint="@color/colorPrimary"
+            android:elevation="0dp"
             android:foregroundTint="@android:color/background_light"
             android:text="Thoharoh"
             android:textColor="@color/cardview_light_background"
             android:textColorLink="@color/colorPrimary"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="-38dp" />
-
-        <Button
-            android:id="@+id/Najis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/appbar_padding_top"
-            android:background="@color/colorPrimary"
-            android:backgroundTint="@color/colorPrimary"
-            android:foregroundTint="@android:color/background_light"
-            android:text="Najis"
-            android:textColor="@color/cardview_light_background"
-            android:textColorLink="@color/colorPrimary" />
 
         <Button
             android:id="@+id/Wudhu"
@@ -55,18 +45,6 @@
             android:textColorLink="@color/colorPrimary"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="96dp" />
-
-        <Button
-            android:id="@+id/Tayamum"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/appbar_padding_top"
-            android:background="@color/colorPrimary"
-            android:backgroundTint="@color/colorPrimary"
-            android:foregroundTint="@android:color/background_light"
-            android:text="Tayamum"
-            android:textColor="@color/cardview_light_background"
-            android:textColorLink="@color/colorPrimary" />
 
         <Button
             android:id="@+id/Siwak"
@@ -90,8 +68,19 @@
             android:foregroundTint="@android:color/background_light"
             android:text="Mandi"
             android:textColor="@color/cardview_light_background"
-            android:textColorLink="@color/colorPrimary" />
+            android:textColorLink="@color/colorPrimary"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="344dp" />
 
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibWudhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Wudhu"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="374dp" />
 
 </android.support.constraint.ConstraintLayout>

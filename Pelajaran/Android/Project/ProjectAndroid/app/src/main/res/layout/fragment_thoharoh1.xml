@@ -12,16 +12,55 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Penjelasan tentang thoharoh" />
+                android:text="Thoharoh (Bersuci)"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n  Thoharoh hukumnya wajib berdasarkan al-Kitab dan as-Sunnah. Sholat tidak akan diterima tanpa bersuci, karena kuncinya sholat adalah bersuci. Thoharoh ada 2 macam yaitu :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nBatiniyah"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Yaitu menyucikan jiwa dari dampak-dampak dosa dan maksiat dengan taubat yang sungguh-sungguh dari setiap dosadan maksiat, juga menyucikan hati dari noda-noda syirik, ragu, dengki, curang, sombong, bangga diri, riya' dan sum'ah, yaitu dengan keikhlasan, keyakinan, mencintai kebaikan, kelembutan, kejujuran, rendah hati dan mengharap Wajah Allah dengan segala niat dan amal shalih." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLahiriyah"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Yaitu bersuci dari kotoran dan hadats dengan air suci dari pakaian dan badan orang yang sholat, serta tempat sholatnya. Bersuci dari hadats adalah dengan cara : Wudhu, mandi dan tayamum." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nMacam macam benda yang dapat digunakan"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Air Muthlaq, yaitu air yang masih murni seperti air sumur, air mata air, air lembah, air sungai, air salju yang mencair dan air laut yang asin.\n- Debu yang suci, yaitu berupa tanah, pasir, batu atau debu." />
 
         </LinearLayout>
-
     </ScrollView>
-
-
 </FrameLayout>

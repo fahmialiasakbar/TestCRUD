@@ -134,9 +134,9 @@ public class MandiActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             if (position == 0) {
-                return new Mandi3Fragment();
-            } else if (position == 1) {
                 return new Mandi2Fragment();
+            } else if (position == 1) {
+                return new Mandi3Fragment();
             }
             return MandiActivity.PlaceholderFragment.newInstance(position + 1);
         }
@@ -144,16 +144,16 @@ public class MandiActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 2;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Dalil";
+                    return "Mandi";
                 case 1:
-                    return "Tata Cara";
+                    return "Dalil";
             }
             return null;
         }

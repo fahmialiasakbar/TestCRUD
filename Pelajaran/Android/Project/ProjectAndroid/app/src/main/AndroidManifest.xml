@@ -21,16 +21,8 @@
             android:label="@string/title_activity_thoharoh"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".NajisActivity"
-            android:label="@string/title_activity_najis"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".WudhuActivity"
             android:label="@string/title_activity_wudhu"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".TayamumActivity"
-            android:label="@string/title_activity_tayamum"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SiwakActivity"

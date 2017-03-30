@@ -17,22 +17,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ThoharohActivity.class));
             }
         });
-        findViewById(R.id.Najis).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, NajisActivity.class));
-            }
-        });
+
         findViewById(R.id.Wudhu).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, WudhuActivity.class));
-            }
-        });
-        findViewById(R.id.Tayamum).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, TayamumActivity.class));
             }
         });
         findViewById(R.id.Siwak).setOnClickListener(new View.OnClickListener() {
@@ -48,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void Wudhu(View v) {
+        switch (v.getId()) {
+            case R.id.ibWudhu:
+                startActivity(new Intent(MainActivity.this, WudhuActivity.class));
+                break;
+        }
     }
 }
